@@ -1,0 +1,24 @@
+{
+  "name": "employee-doc-tool",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^42.5.0"
+  },
+  "dependencies": {
+    "csv-parse": "^7.0.0",
+    "csv-stringify": "^6.8.0",
+    "fuse.js": "^7.4.2",
+    "lucide": "^1.21.0",
+    "pdf-lib": "^1.17.1",
+    "tesseract.js": "^7.0.0"
+  }
+}
