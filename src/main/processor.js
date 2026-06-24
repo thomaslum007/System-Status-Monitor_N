@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
-const { createWorker } = require('tesseract.js');
+const Tesseract = require('tesseract.js');
+const { createWorker } = Tesseract;
 const Fuse = require('fuse.js');
 const { loadDatabase } = require('./database');
 
